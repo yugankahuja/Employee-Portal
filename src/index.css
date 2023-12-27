@@ -1,0 +1,334 @@
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container, .profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.employee-photo img {
+  
+  max-width: 200px;
+  border: 5px solid #007BFF;
+  /*border-radius: 50%;*/
+}
+
+.employee-details {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 5px 10px;
+  border-bottom: 1px solid #0044ff;
+}
+
+
+body {
+  background-image: url('gradient.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+footer {
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px ;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px; 
+  height: 30px;
+}
+
+.legal-menu {
+  margin-top: 10px;
+}
+
+.legal-menu p {
+  font-weight: bold;
+}
+
+.legal-menu ul {
+  list-style-type: none;
+}
+
+.legal-menu ul li {
+  margin-bottom: 5px;
+}
+
+.legal-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-menu {
+  margin-top: 10px;
+}
+
+.contact-menu p {
+  font-weight: bold;
+}
+
+.contact-menu ul {
+  list-style-type: none;
+}
+
+.contact-menu ul li {
+  margin-bottom: 5px;
+}
+
+.contact-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.image-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #007BFF;
+  overflow: hidden;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Logo container styles */
+.logo-container {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 200px; /* Adjust the width as needed */
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.login-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Login container styles */
+.login-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"]
+button {
+  width: 28%;
+  padding: 0px;
+  margin: 0 auto;
+  
+}
+
+
+button {
+  
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ... (existing CSS) ... */
+
+/* ... (existing CSS) ... */
+
+/* Adjust the table's margins and width */
+table {
+  background-color: #f7f7f7;
+  background-image: url('table-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-collapse: collapse;
+  margin: 20px auto; /* Even spacing on the top and bottom, and center horizontally */
+  width: 80%; /* Adjust the table width as needed */
+}
+h1 {
+  text-align: center; /* Center-align the text */
+  font-size: 32px; /* Increase the font size */
+  color: #ff0000; /* Change the text color to a more prominent color */
+  margin: 20px 0; /* Add spacing above and below the heading */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+}
+/* Table header styles */
+table th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Table row styles (alternating background colors) */
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* ... (existing CSS) ... */
+.attendance-container {
+  text-align: center;
+  margin: 20px auto; /* Center the table horizontally */
+  width: 80%; /* Adjust the width of the table container as needed */
+}
+
+.button-container {
+  text-align: center;
+}
+
+/* Background styles for the attendance table (as shown in previous responses) */
+
+/* ... (existing CSS) ... */
+
+/* Center the button horizontally within its container */
+#export-btn {
+  display: block;
+  margin: 20px auto; /* Center the button horizontally and create spacing below the table */
+}
+
+.logo {
+  float: left;
+  margin-right: 20px;
+}
+
+.logo img {
+  max-width: 100px; /* Adjust the width as needed */
+}
+
+
+.nav-link, .navbar-toggle, .navbar-collapse, .navbar-brand, .nav-dropdown , .button-container{
+  color: rgb(0, 0, 0) !important; /* Ensures text is white */
+}
+
+h2{
+  color: rgb(0, 0, 0);
+}
+.custom-toggler, .navbar-toggler-icon {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0); /* Button background color */
+   /* background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%23FFF' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); Icon color */
+}
+
+
+
+.navbar-toggler-icon{
+  color: rgb(0, 0, 0);
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-right: 10px;
+  margin: 20px auto;
+}
+
+.form-group input {
+  flex: 1; /* Makes input take the remaining space */
+  max-width: 300px;
+  margin: 20px auto;
+}
+
