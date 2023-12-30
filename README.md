@@ -103,9 +103,6 @@ Then, configure `vite.config.js` to include the plugin.
    - Use the 'Add Employee' button to create new entries.
    - Click on any employee to edit or delete their information.
 
-## Contributing
-
-I encourage community contributions! Please check our [Contributing Guide](LINK_TO_CONTRIBUTING_GUIDE) for detailed instructions on how to contribute.
 
 ## Contact
 
