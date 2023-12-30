@@ -60,6 +60,25 @@ Before you begin, ensure you have the following installed:
 
 - Configure any environment variables or API endpoints in `.env` or relevant config files.
 
+## React + Vite Integration
+
+This project utilizes Vite for a fast and efficient development setup with React, featuring Hot Module Replacement (HMR) for instant feedback during development.
+
+### Official Vite Plugins
+
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)**: Uses Babel for Fast Refresh.
+- **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**: Employs SWC for a speed boost in development and production builds.
+
+### Setup
+
+Install your preferred plugin:
+
+- Babel: `npm install @vitejs/plugin-react --save-dev`
+- SWC: `npm install @vitejs/plugin-react-swc --save-dev`
+
+Then, configure `vite.config.js` to include the plugin.
+
+
 ### Running the Application
 
 1. **Start the Application**
