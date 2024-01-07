@@ -1,4 +1,4 @@
-# Employee Portal - React
+# Employee Portal
 
 ## Overview
 
@@ -24,13 +24,13 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yugankahuja/Employee-Portal-React.git
+   git clone https://github.com/yugankahuja/Employee-Portal.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd Employee-Portal-React
+   cd Employee-Portal
    ```
 
 3. **Install Dependencies**
