@@ -69,7 +69,7 @@ function ListGroup() {
              <table>
               <tr>
                 <td>Name:</td>
-                <td>John Doe</td>
+                <td>Prateeksha Singh</td>
               </tr>
               <tr>
                 <td>Date of Birth:</td>
