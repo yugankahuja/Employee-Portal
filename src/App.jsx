@@ -25,7 +25,7 @@ function App() {
           <Route path="/App" element={<App />} />
           <Route path="/Moderation" element={<Moderation />} />
 
-        
+          <Route path="/Login" element={<Login />} />
           <Route path="/Nested" element={<Nested />} />
           <Route path="/App" element={<App />} />
         

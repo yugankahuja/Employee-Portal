@@ -39,7 +39,7 @@ function ListGroup() {
               <NavDropdown.Item href="#">Competitive Advantage</NavDropdown.Item>
               <NavDropdown.Item href="#">Customer Testimonials</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/" activeClassName="active">
+            <Nav.Link as={Link} to="/login" activeClassName="active">
                 Logout
             </Nav.Link>
           </Nav>

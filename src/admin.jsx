@@ -45,7 +45,7 @@ function AdminPage() {
             <Nav.Link as={Link} to="/moderation" activeClassName="active">
                 Moderation
             </Nav.Link>
-            <Nav.Link as={Link} to="/" activeClassName="active">
+            <Nav.Link as={Link} to="/login" activeClassName="active">
                 Logout
             </Nav.Link>
           </Nav>
