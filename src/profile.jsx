@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import "E:/Projects/my-app/src/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dcmLogo from './dcm_logo.png';
 import EmployeePhoto from "./employee-photo.jpg";
