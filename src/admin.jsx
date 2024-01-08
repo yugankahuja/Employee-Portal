@@ -29,7 +29,7 @@ function AdminPage() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="custom-toggler"/>
             <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/admin" activeClassName="active">
+            <Nav.Link as={Link} to="/Admin" activeClassName="active">
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/nested" activeClassName="active">

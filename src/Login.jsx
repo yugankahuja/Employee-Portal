@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dcmLogo from './dcm_logo.png';
 import image1 from './image1.jpg';
@@ -147,7 +148,6 @@ const YourComponent= ({ onLoginSuccess }) => {
         <button type="submit">Login</button>
       </form>
         </div>
-
         
 
         <footer>
@@ -155,10 +155,10 @@ const YourComponent= ({ onLoginSuccess }) => {
             <p>
               <strong>Social Media</strong>
             </p>
-            <a href="#" target="_blank">
+            <a href="https://m.facebook.com/profile.php?id=109117873846274" target="_blank">
               <img src={facebookLogo} alt="Facebook" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/company/dcm-infotech-limited/mycompany/" target="_blank">
               <img src={linkedinLogo} alt="LinkedIn" />
             </a>
           </div>

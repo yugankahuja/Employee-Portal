@@ -18,7 +18,7 @@ function AdminModerationPanel() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className="custom-toggler"/>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="admin.html">Home</Nav.Link>
+                <Nav.Link href="/admin">Home</Nav.Link>
                 <Nav.Item>
                   <Nav>
                     <NavDropdown
@@ -68,7 +68,7 @@ function AdminModerationPanel() {
                 
                 <Nav.Link href="#">Posts</Nav.Link>
                 <Nav.Link href="#">Comments</Nav.Link>
-                <Nav.Link href="index.html">Logout</Nav.Link>
+                <Nav.Link href="/">Logout</Nav.Link>
               </Nav>
               <form className="d-flex" role="search">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
