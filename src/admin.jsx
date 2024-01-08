@@ -72,7 +72,7 @@ function AdminPage() {
             <table>
               <tr>
                 <td>Name:</td>
-                <td>Prateeksha Singh</td>
+                <td>DCM ADMINISTRATOR</td>
               </tr>
               <tr>
                 <td>Date of Birth:</td>
