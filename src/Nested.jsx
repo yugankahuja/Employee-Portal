@@ -1,4 +1,3 @@
-import "E:/Projects/react-app/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FacebookLogo from "./facebook-logo.png";
 import LinkedinLogo from "./linkedin-logo.png";

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "E:/Projects/react-app/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dcmLogo from './dcm_logo.png';
 import image1 from './image1.jpg';

@@ -3,7 +3,6 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown, Container, Button, Table } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "E:/Projects/react-app/styles.css"; 
 import dcmLogo from './dcm_logo.png'; // Ensure this image is in your project directory
 
 function AdminModerationPanel() {
